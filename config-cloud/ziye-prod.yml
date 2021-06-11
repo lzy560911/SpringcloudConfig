@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active:
+    - prod
+---
+spring:
+  profiles: prod   #正式环境
+  application: 
+    name: springcloud-config-prod

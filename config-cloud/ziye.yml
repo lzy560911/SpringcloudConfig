@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active:
+    - test
+---
+spring:
+  profiles: test   #测试环境
+  application: 
+    name: springcloud-config-test
+---
