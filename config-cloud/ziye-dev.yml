@@ -1,9 +1,5 @@
-spring:
-  profiles:
-    active:
-    - dev
----
-spring:
-  profiles: dev     #开发环境
-  application: 
-    name: springcloud-config-dev
+ data:
+  env: springcloud-config-dev
+  user:
+    username: springcloud-config-dev
+    password: 12345678

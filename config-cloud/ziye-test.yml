@@ -1,0 +1,5 @@
+ data:
+  env: springcloud-config-test
+  user:
+    username: springcloud-config-test
+    password: 12345678

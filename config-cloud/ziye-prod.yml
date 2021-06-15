@@ -1,9 +1,5 @@
-spring:
-  profiles:
-    active:
-    - prod
----
-spring:
-  profiles: prod   #正式环境
-  application: 
-    name: springcloud-config-prod
+ data:
+  env: springcloud-config-prod
+  user:
+    username: springcloud-config-prod
+    password: 12345678
