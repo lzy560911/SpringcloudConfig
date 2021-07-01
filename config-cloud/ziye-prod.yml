@@ -2,4 +2,4 @@
   env: springcloud-config-prod
   user:
     username: springcloud-config-prod
-    password: 12345678
+    password: 12345678-lzy
